@@ -39,6 +39,7 @@ function searchInput(event) {
     })
     .catch(error => {
       Notify.failure('Oops, there is no country with that name');
+      newList();
     });
 }
 
