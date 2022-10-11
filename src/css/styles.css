@@ -20,20 +20,28 @@ body {
 }
 
 .country-list {
-  padding: 0;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.country {
+.country-list__item {
   display: flex;
   align-items: center;
-  margin-left: 40px;
 }
 
-.flag { 
-  margin-right: 10px;
+.country-list__name {
+  margin-left: 15px;
 }
 
-.country-info_list {
-  margin-left: 40px;
+.country-list__name {
+  font-weight: 800;
+}
+
+.country-description__name {
+  font-weight: 800;
+}
+
+.country-description__second-name {
+  font-weight: 500;
 }

@@ -1,5 +1,5 @@
 export const refs = {
-    input: document.getElementById('search-box'),
-    countryWrapperRef: document.querySelector('.country-list'),
-    countryInfo: document.querySelector('.country-info')
-  };
+  inputRef: document.querySelector('#search-box'),
+  countryListRef: document.querySelector('.country-list'),
+  countryInfoRef: document.querySelector('.country-info'),
+};
